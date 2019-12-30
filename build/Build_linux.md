@@ -18,6 +18,30 @@ Install OpenAL dependencies:
 
 `sudo apt install libopenal1 libopenal-dev`
 
+With an Arch based system, it can be compiled executing the following commands on a terminal:
+
+Install golang:
+
+`sudo pacman -S go`
+
+Install git:
+
+`sudo pacman -S git`
+
+Install mesa (If not avalable on other Arch-Based systems):
+
+`sudo pacman -S mesa`
+
+Install OpenAL dependencies:
+
+`sudo pacman -S openal`
+
+Note for Arch/Manjaro users; Xorg and Mesa already has the development tools
+
+Update glibc:
+
+`sudo pacman -S glibc lib32-glibc`
+
 Download Ikemen GO Plus repository:
 
 `git clone https://github.com/Windblade-GR01/Ikemen_GO.git`
